@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320" prefWidth="1272" styleClass="">
+  <children>
+    <Panel backgroundColor="#333333" borderColor="#666666" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel6" layoutX="8" layoutY="224" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="88" prefWidth="728" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Panel backgroundColor="#333333" borderColor="#666666" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel4" layoutX="744" layoutY="224" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="88" prefWidth="368" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label" layoutX="8" layoutY="8" prefHeight="40" prefWidth="1272" style="-fx-font-family: 'Unispace';-fx-font-size: 24px;" styleClass="label " text="Simple HackRF One Hardware Synchronizer" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="24"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label" visible="1"/>
+    <Panel backgroundColor="#333333" borderColor="#666666" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel" layoutX="8" layoutY="64" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="152" prefWidth="624" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit" layoutX="112" layoutY="72" prefColumnCount="12" prefHeight="32" prefWidth="48" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="40">
+          <font>
+            <Font name="Unispace-Bold" size="16"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel" visible="1"/>
+    <Separator focusTraversable="false" id="separator" layoutX="0" layoutY="52" orientation="HORIZONTAL" prefHeight="8" prefWidth="1272" styleClass="separator "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-separator" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label3" layoutX="16" layoutY="64" prefHeight="24" prefWidth="608" style="-fx-font-family: 'Unispace';-fx-font-size: 24px;" styleClass="label " text="HackRF One Board ONE" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="24"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label3" visible="1"/>
+    <Panel backgroundColor="#333333" borderColor="#666666" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel5" layoutX="16" layoutY="96" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="608" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel5" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label5" layoutX="8" layoutY="100" prefHeight="16" prefWidth="72" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="S/N:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label5" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label8" layoutX="8" layoutY="136" prefHeight="32" prefWidth="120" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="LNA Gain:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label8" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label9" layoutX="176" layoutY="136" prefHeight="32" prefWidth="120" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="VGA Gain:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label9" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="editAlt" layoutX="288" layoutY="136" prefColumnCount="12" prefHeight="32" prefWidth="48" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="22">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-editAlt" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label10" layoutX="344" layoutY="136" prefHeight="32" prefWidth="120" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Amplifier:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label10" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button" layoutX="464" layoutY="136" prefHeight="33" prefWidth="160" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="Enable" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label11" layoutX="7" layoutY="176" prefHeight="32" prefWidth="144" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Samplerate:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label11" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit3" layoutX="144" layoutY="176" prefColumnCount="12" prefHeight="33" prefWidth="168" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="20000000">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit3" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonAlt" layoutX="528" layoutY="176" prefHeight="33" prefWidth="96" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="20 MSPS" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-buttonAlt" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button3" layoutX="424" layoutY="176" prefHeight="33" prefWidth="96" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="15 MSPS" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button3" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button4" layoutX="320" layoutY="176" prefHeight="33" prefWidth="96" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="10 MSPS" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button4" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label12" layoutX="16" layoutY="232" prefHeight="32" prefWidth="216" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Frequency HackRF 1:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label12" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit4" layoutX="232" layoutY="232" prefColumnCount="12" prefHeight="33" prefWidth="184" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit4" visible="1"/>
+    <Panel backgroundColor="#333333" borderColor="#666666" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panelAlt" layoutX="640" layoutY="64" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="152" prefWidth="624" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit6" layoutX="112" layoutY="72" prefColumnCount="12" prefHeight="32" prefWidth="48" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="40">
+          <font>
+            <Font name="Unispace-Bold" size="16"/>
+          </font>
+        </TextField>
+        <Data cursor="DEFAULT" enabled="1" id="data-edit6" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panelAlt" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAlt" layoutX="648" layoutY="64" prefHeight="24" prefWidth="608" style="-fx-font-family: 'Unispace';-fx-font-size: 24px;" styleClass="label " text="HackRF One Board TWO" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="24"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelAlt" visible="1"/>
+    <Panel backgroundColor="#333333" borderColor="#666666" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel3" layoutX="648" layoutY="96" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="608" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel3" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label4" layoutX="640" layoutY="100" prefHeight="16" prefWidth="72" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="S/N:" textAlignment="LEFT" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label4" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label13" layoutX="640" layoutY="136" prefHeight="32" prefWidth="120" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="LNA Gain:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label13" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label14" layoutX="808" layoutY="136" prefHeight="32" prefWidth="120" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="VGA Gain:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label14" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit7" layoutX="920" layoutY="136" prefColumnCount="12" prefHeight="32" prefWidth="48" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="22">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit7" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label15" layoutX="976" layoutY="136" prefHeight="32" prefWidth="120" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Amplifier:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label15" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button15" layoutX="1096" layoutY="136" prefHeight="33" prefWidth="160" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="Enable" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button15" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label16" layoutX="640" layoutY="176" prefHeight="32" prefWidth="144" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Samplerate:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label16" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit8" layoutX="776" layoutY="176" prefColumnCount="12" prefHeight="33" prefWidth="168" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="20000000">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit8" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button16" layoutX="1160" layoutY="176" prefHeight="33" prefWidth="96" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="20 MSPS" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button16" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button17" layoutX="1056" layoutY="176" prefHeight="33" prefWidth="96" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="15 MSPS" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button17" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button18" layoutX="952" layoutY="176" prefHeight="33" prefWidth="96" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="10 MSPS" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button18" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit9" layoutX="232" layoutY="272" prefColumnCount="12" prefHeight="33" prefWidth="184" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit9" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel4" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label19" layoutX="744" layoutY="232" prefHeight="32" prefWidth="200" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Center Frequency:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label19" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit11" layoutX="944" layoutY="232" prefColumnCount="12" prefHeight="33" prefWidth="160" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit11" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label20" layoutX="744" layoutY="272" prefHeight="32" prefWidth="136" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Samplerate:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label20" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit12" layoutX="880" layoutY="272" prefColumnCount="12" prefHeight="33" prefWidth="104" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="20000000">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit12" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button29" layoutX="992" layoutY="272" prefHeight="33" prefWidth="112" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="Calculate" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button29" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button13" layoutX="536" layoutY="272" prefHeight="33" prefWidth="192" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="Start Recording" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button13" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel6" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label23" layoutX="16" layoutY="272" prefHeight="32" prefWidth="216" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Frequency HackRF 2:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label23" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label17" layoutX="424" layoutY="232" prefHeight="32" prefWidth="192" style="-fx-font-family: 'Unispace';-fx-font-size: 18px;" styleClass="label " text="Cutoff Frequency:" textAlignment="LEFT" textFill="#e6e6e6" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="18"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-label17" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="edit10" layoutX="616" layoutY="232" prefColumnCount="12" prefHeight="33" prefWidth="112" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="text-input text-field " text="1500000">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit10" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit5" layoutX="1040" layoutY="16" prefColumnCount="12" prefHeight="32" prefWidth="32" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="" id="data-edit5" visible=""/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit15" layoutX="1080" layoutY="16" prefColumnCount="12" prefHeight="32" prefWidth="32" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="" id="data-edit15" visible=""/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button14" layoutX="424" layoutY="272" prefHeight="33" prefWidth="48" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="WAV" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button14" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button19" layoutX="480" layoutY="272" prefHeight="33" prefWidth="48" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="RAW" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button19" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit16" layoutX="1128" layoutY="32" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="" id="data-edit16" visible=""/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit17" layoutX="1128" layoutY="0" prefColumnCount="12" prefHeight="32" prefWidth="144" promptText="" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="System Regular" size="12"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="" id="data-edit17" visible=""/>
+    <Panel backgroundColor="#333333" borderColor="#666666" borderRadius="0" borderStyle="SOLID" borderWidth="1" focusTraversable="false" id="panel7" layoutX="1120" layoutY="224" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="50" prefWidth="144" styleClass="" titleColor="#dcdcdc" titleOffset="15" titlePosition="TOP_LEFT">
+      <children/>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel7" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit13" layoutX="72" layoutY="97" prefColumnCount="12" prefHeight="30" prefWidth="551" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 14px;-fx-text-fill: Lime;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Unispace-Bold" size="14"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit13" visible="1"/>
+    <TextField alignment="CENTER_LEFT" editable="true" focusTraversable="true" id="edit14" layoutX="704" layoutY="97" prefColumnCount="12" prefHeight="30" prefWidth="551" promptText="" style="-fx-font-family: 'Unispace';-fx-font-size: 14px;-fx-text-fill: Lime;" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Unispace-Bold" size="14"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-edit14" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button5" layoutX="1128" layoutY="232" prefHeight="33" prefWidth="128" style="-fx-font-family: 'Unispace';-fx-font-size: 16px;" styleClass="button " text="Get S/N" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Unispace-Bold" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="DEFAULT" enabled="1" id="data-button5" visible="1"/>
+  </children>
+</AnchorPane>

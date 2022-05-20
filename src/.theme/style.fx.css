@@ -1,0 +1,9 @@
+/* JavaFX CSS Style with -fx- prefix */
+@font-face{
+src: url("unispace.ttf");
+}
+
+.button:focused {
+    -fx-focus-color: transparent;
+}
+

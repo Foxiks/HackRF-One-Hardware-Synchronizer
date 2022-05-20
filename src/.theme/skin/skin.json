@@ -1,0 +1,13 @@
+{
+  "uid": "DarkTheme",
+  "name": "Dark Theme",
+  "version": "",
+  "description": "Оформление в темных тонах.",
+  "author": "DevelNext",
+  "authorSite": "http://develnext.org",
+  "file": "C:\\Users\\DevelNext PC\\DevelNextProjects\\Test\\src\\.theme\\skin",
+  "scopes": [
+    "gui",
+    "ide\\project\\behaviours\\GuiFrameworkProjectBehaviour"
+  ]
+}
