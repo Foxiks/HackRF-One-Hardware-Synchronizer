@@ -33,6 +33,8 @@ Next, connect the GPIO lines of your Hackrf boards as shown in this picture. Thi
  
 I took this photo from [this](https://olegkutkov.me/2020/06/17/combining-two-hackrf-sdr-to-see-more/) article.
 
+More info: github.com/greatscottgadgets/hackrf/pull/381
+
 Then you can select the data recording mode (wav or raw) and start receiving data.
 If you've done everything right, you'll notice all the LEDs on your SDR boards (RX and TX) light up. And in the CMD that opens, you will see how the data transfer process began.
 ![4](https://github.com/Foxiks/HackRF-One-Hardware-Synchronizer/blob/main/images/9vbl.jpg)
