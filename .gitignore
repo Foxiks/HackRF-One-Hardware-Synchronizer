@@ -10,7 +10,6 @@
 /src_generated
 /src/JPHP-INF
 /src/.debug
-/build
 /build.xml
 /build.gradle
 /settings.gradle
