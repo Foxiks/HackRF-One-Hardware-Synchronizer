@@ -19,12 +19,18 @@ Next, specify the center frequency of reception. This is the Center Freq. Specif
 ## HackRF board hardware connection
 
 Next you need to connect the Hackrf boards together. Do it like this:
+
 ![2](https://i0.wp.com/olegkutkov.me/wp-content/uploads/2020/06/HackRF-One-boards_clock_sync.jpeg?ssl=1)
+
+ 
 I took this photo from [this](https://olegkutkov.me/2020/06/17/combining-two-hackrf-sdr-to-see-more/) article.
 Please note that the Main board is the topmost hackrf board that was listed in the CMD list with serial numbers!
 
 Next, connect the GPIO lines of your Hackrf boards as shown in this picture. This is a group of contacts under the designation P20 on the board:
+
 ![3](https://i0.wp.com/olegkutkov.me/wp-content/uploads/2020/06/HackRF-One-sync.jpeg?ssl=1)
+
+ 
 I took this photo from [this](https://olegkutkov.me/2020/06/17/combining-two-hackrf-sdr-to-see-more/) article.
 
 Then you can select the data recording mode (wav or raw) and start receiving data.
